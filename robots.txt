@@ -1,0 +1,6 @@
+# robots.txt for Young Web Solutions
+User-agent: *
+Allow: /
+
+Sitemap: https://www.young-web-solutions.de/sitemap.xml
+

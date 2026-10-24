@@ -25,58 +25,127 @@ document.addEventListener('DOMContentLoaded', () => {
   const modeButtons = document.querySelectorAll('.mode-switch__btn');
   const previewStage = document.getElementById('hero-preview-stage');
   if (modeButtons.length && previewStage) {
-    const states = {
-      after: {
-        isBefore: false,
-        badgeClass: 'preview-badge--new',
-        badgeText: 'Nachher · Frisches Design & Klare Struktur',
-        title: 'Aufgeräumtes Layout, moderner Stil & sofort startklarer Code.',
-        desc: 'Ihre bestehenden Inhalte wirken endlich zeitgemäß, sind auf jedem Smartphone perfekt lesbar und werden Ihnen als fertiges HTML/CSS-Paket übergeben.',
-        metrics: [
-          { val: 'Modern', label: 'Optik & Layout', cls: 'metric-box__val--good' },
-          { val: '100 %', label: 'Code-Übergabe', cls: 'metric-box__val--good' },
-          { val: '0 € Risiko', label: 'Zufriedenheitsgarantie', cls: 'metric-box__val--good' }
-        ]
-      },
-      before: {
-        isBefore: true,
-        badgeClass: 'preview-badge--old',
-        badgeText: 'Vorher · In die Jahre gekommene Homepage',
-        title: 'Unruhiges Layout, veraltete Optik & unübersichtliche Navigation.',
-        desc: 'Eigentlich gute Inhalte gehen in einem veralteten Design unter. Auf dem Smartphone wirkt die Seite zusammengeschoben und wenig einladend.',
-        metrics: [
-          { val: 'Veraltet', label: 'Optischer Eindruck', cls: 'metric-box__val--bad' },
-          { val: 'Unklar', label: 'Seitenstruktur', cls: 'metric-box__val--bad' },
-          { val: 'Schwierig', label: 'Mobile Darstellung', cls: 'metric-box__val--bad' }
-        ]
-      }
-    };
+    const modernHtml = `
+      <div class="modern-browser">
+        <div class="modern-browser__titlebar">
+          <div class="modern-browser__dots">
+            <span></span><span></span><span></span>
+          </div>
+          <div class="modern-browser__address">
+            <span>🔒</span> https://www.elektro-schmidt.de
+          </div>
+        </div>
+        <div class="modern-browser__body">
+          <div>
+            <span class="modern-preview-badge">⚡ Elektro Schmidt • Meisterbetrieb</span>
+            <h3 class="modern-browser__title">Moderne Elektrotechnik &amp; Smarthome aus Meisterhand.</h3>
+            <p class="modern-browser__desc">
+              Zuverlässiger Kundenservice, transparente Festpreise und schnelle Termine in Ihrer Region.
+            </p>
+          </div>
+          <div>
+            <span class="modern-preview-btn">Angebot anfordern →</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-metrics">
+        <div class="metric-box">
+          <span class="metric-box__val metric-box__val--good">
+            <span class="metric-icon metric-icon--good">✓</span> Mobil perfekt
+          </span>
+          <span class="metric-box__label">Auf jedem Smartphone</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-box__val metric-box__val--good">
+            <span class="metric-icon metric-icon--good">✓</span> Starkes Image
+          </span>
+          <span class="metric-box__label">Schafft Vertrauen</span>
+        </div>
+        <div class="metric-box">
+          <span class="metric-box__val metric-box__val--good">
+            <span class="metric-icon metric-icon--good">✓</span> Mehr Anfragen
+          </span>
+          <span class="metric-box__label">Gewinnt Neukunden</span>
+        </div>
+      </div>
+    `;
+
+    const retroHtml = `
+      <div class="retro-browser">
+        <div class="retro-browser__titlebar">
+          <div class="retro-browser__title">
+            <span>🌐</span> Internet Explorer 6.0 - Elektro-Schmidt-Home.html
+          </div>
+          <div class="retro-browser__controls">
+            <span>_</span><span>□</span><span>✕</span>
+          </div>
+        </div>
+
+        <div class="retro-browser__address">
+          <span class="retro-browser__label">Adresse:</span>
+          <span class="retro-browser__url">http://www.elektro-schmidt.de/index_alt.html</span>
+        </div>
+
+        <div class="retro-browser__body">
+          <div class="retro-marquee">
+            ⚠️ HERZLICH WILLKOMMEN! (STAND: 2006 • 1024x768 EMPFOHLEN) ⚠️
+          </div>
+
+          <div class="retro-content-box">
+            <div class="retro-hero-title">
+              *** ELEKTRO SCHMIDT GMBH - MEISTERBETRIEB ***
+            </div>
+            <p class="retro-text">
+              Ihr Partner für Elektro seit 1998! <u>Hinweis:</u> Diese Homepage ist nicht für Smartphones geeignet. Text wird abgeschnitten.
+            </p>
+
+            <div class="retro-counter-row">
+              <span>Besucher:</span>
+              <span class="retro-counter">004821</span>
+              <button type="button" class="retro-win-btn" onclick="return false;">Hier klicken!!</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="preview-metrics">
+        <div class="metric-box metric-box--bad">
+          <span class="metric-box__val metric-box__val--bad">
+            <span class="metric-icon metric-icon--bad">✕</span> Veraltet
+          </span>
+          <span class="metric-box__label">2000er Tabellen-Look</span>
+        </div>
+        <div class="metric-box metric-box--bad">
+          <span class="metric-box__val metric-box__val--bad">
+            <span class="metric-icon metric-icon--bad">✕</span> Nicht mobil
+          </span>
+          <span class="metric-box__label">Layout unlesbar</span>
+        </div>
+        <div class="metric-box metric-box--bad">
+          <span class="metric-box__val metric-box__val--bad">
+            <span class="metric-icon metric-icon--bad">✕</span> Kaum Kunden
+          </span>
+          <span class="metric-box__label">Vergrault Besucher</span>
+        </div>
+      </div>
+    `;
 
     modeButtons.forEach((btn) => {
       btn.addEventListener('click', () => {
         const view = btn.getAttribute('data-view');
-        const state = states[view];
-        if (!state) return;
-
         modeButtons.forEach((b) => b.classList.remove('is-active'));
         btn.classList.add('is-active');
 
-        previewStage.classList.toggle('is-before', state.isBefore);
-        previewStage.innerHTML = `
-          <div>
-            <span class="preview-badge ${state.badgeClass}">${state.badgeText}</span>
-            <h3 class="h3-title" style="margin-bottom:0.5rem;">${state.title}</h3>
-            <p style="color:var(--text-muted);font-size:0.93rem;">${state.desc}</p>
-          </div>
-          <div class="preview-metrics">
-            ${state.metrics.map(m => `
-              <div class="metric-box">
-                <span class="metric-box__val ${m.cls}">${m.val}</span>
-                <span class="metric-box__label">${m.label}</span>
-              </div>
-            `).join('')}
-          </div>
-        `;
+        // Heights are fixed in CSS (225px browser, 92px metrics)
+
+        if (view === 'before') {
+          previewStage.classList.add('is-before');
+          previewStage.innerHTML = retroHtml;
+        } else {
+          previewStage.classList.remove('is-before');
+          previewStage.innerHTML = modernHtml;
+        }
       });
     });
   }
@@ -89,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const recommendations = {
     freshup: {
       name: 'Paket 01: Fresh-Up (590 €)',
-      text: 'Ideal für Sie: Ihre bestehenden Inhalte stehen bereits – wir verpassen Ihrer Seite ein schickes, modernes Gewand und übergeben Ihnen den fertigen Code.',
+      text: 'Ideal für Sie: Da Ihre Inhalte bereits stehen, konzentrieren wir uns voll auf die moderne Optik und mobile Ansicht – zügig und schlüsselfertig.',
       cardId: 'freshup',
       selectValue: 'Fresh-Up (Basispaket – 590 €)'
     },
@@ -101,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     signature: {
       name: 'Paket 03: Signature (1.890 €)',
-      text: 'Perfekt für besondere Ansprüche: Maßgeschneiderte Zusatz-Features, individuelles Konzept und mehrere intensive Abstimmungsrunden.',
+      text: 'Perfekt für besondere Ansprüche: Maßgeschneiderte Zusatz-Features, individuelles Konzept und bis zu 5 persönliche Abstimmungsrunden.',
       cardId: 'signature',
       selectValue: 'Signature (Pro-Paket – 1.890 €)'
     }
@@ -183,6 +252,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const forms = document.querySelectorAll('.js-inquiry-form');
 
   forms.forEach((form) => {
+    // Zeitstempel für zeitbasierten Bot-Check setzen
+    form.dataset.renderedAt = Date.now().toString();
+
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
 
@@ -190,11 +262,38 @@ document.addEventListener('DOMContentLoaded', () => {
       const submitBtn = form.querySelector('button[type="submit"]');
       const originalBtnText = submitBtn ? submitBtn.textContent : '';
 
+      // 1. Cookie-freier Spamschutz: Honeypot-Check
+      const honeyVal = (form.querySelector('[name="_honey"]')?.value || '').trim();
+      if (honeyVal) {
+        console.warn('Spam-Bot abgefangen (Honeypot-Feld war befüllt).');
+        if (feedback) {
+          feedback.innerHTML = `Vielen Dank für Ihre Nachricht!`;
+          feedback.classList.add('is-visible');
+        }
+        form.reset();
+        return;
+      }
+
+      // 2. Cookie-freier Spamschutz: Zeit-Check (unter 1,2 Sekunden = automatisierter Bot)
+      const renderedAt = parseInt(form.dataset.renderedAt || '0', 10);
+      if (renderedAt && (Date.now() - renderedAt < 1200)) {
+        console.warn('Spam-Bot abgefangen (Formular zu schnell abgeschickt).');
+        if (feedback) {
+          feedback.innerHTML = `Vielen Dank für Ihre Nachricht!`;
+          feedback.classList.add('is-visible');
+        }
+        form.reset();
+        return;
+      }
+
       const nameVal = (form.querySelector('[name="name"]')?.value || '').trim();
       const emailVal = (form.querySelector('[name="email"]')?.value || '').trim();
       const websiteVal = (form.querySelector('[name="website"]')?.value || '').trim() || 'Keine Angabe';
       const packageVal = (form.querySelector('[name="package"]')?.value || '').trim() || 'Keine Auswahl';
       const messageVal = (form.querySelector('[name="message"]')?.value || '').trim() || 'Keine Nachricht';
+      
+      const siteAuditCheckbox = form.querySelector('[name="site_audit"]');
+      const siteAuditVal = siteAuditCheckbox && siteAuditCheckbox.checked ? 'Ja (Bitte Website unverbindlich auf Design, Mobil & Speed prüfen)' : 'Nein';
 
       const subject = `Neue Website-Anfrage (${packageVal}) von ${nameVal}`;
 
@@ -220,16 +319,18 @@ document.addEventListener('DOMContentLoaded', () => {
               email: emailVal,
               paket: packageVal,
               website: websiteVal,
+              website_pruefung: siteAuditVal,
               message: messageVal
             })
           });
           const result = await response.json();
           if (response.ok && result.success) {
             if (feedback) {
-              feedback.innerHTML = `Vielen Dank, <strong>${nameVal || 'Ihnen'}</strong>! Ihre unverbindliche Anfrage zum Paket „${packageVal}“ ist eingegangen und wurde per E-Mail an <strong>${TARGET_EMAIL}</strong> gesendet.`;
+              feedback.innerHTML = `Vielen Dank, <strong>${nameVal || 'Ihnen'}</strong>! Ihre unverbindliche Anfrage ist eingegangen und wurde per E-Mail an <strong>${TARGET_EMAIL}</strong> gesendet.`;
               feedback.classList.add('is-visible');
             }
             form.reset();
+            form.dataset.renderedAt = Date.now().toString();
           } else {
             throw new Error(result.message || 'Fehler beim Senden');
           }
@@ -247,8 +348,7 @@ document.addEventListener('DOMContentLoaded', () => {
         return;
       }
 
-      // B) Ohne Access-Key: Sofortiger asynchroner Hintergrund-Versand (wartet im UI nur ~0,5 Sek. statt 15 Sek.,
-      // während der Browser die Übertragung im Hintergrund mit keepalive vollständig abschließt)
+      // B) Ohne Access-Key: Sofortiger asynchroner Hintergrund-Versand via FormSubmit.co
       fetch(`https://formsubmit.co/ajax/${TARGET_EMAIL}`, {
         method: 'POST',
         keepalive: true,
@@ -262,18 +362,21 @@ document.addEventListener('DOMContentLoaded', () => {
           Email: emailVal,
           Paket: packageVal,
           Website: websiteVal,
+          'Website-Prüfung erwünscht': siteAuditVal,
           Nachricht: messageVal,
-          _template: 'table'
+          _template: 'table',
+          _honey: ''
         })
       }).catch(() => {});
 
       await new Promise((resolve) => setTimeout(resolve, 450));
 
       if (feedback) {
-        feedback.innerHTML = `Vielen Dank, <strong>${nameVal || 'Ihnen'}</strong>! Ihre unverbindliche Anfrage zum Paket „${packageVal}“ ist eingegangen und wurde per E-Mail an <strong>${TARGET_EMAIL}</strong> gesendet.`;
+        feedback.innerHTML = `Vielen Dank, <strong>${nameVal || 'Ihnen'}</strong>! Ihre unverbindliche Anfrage ist eingegangen und wurde per E-Mail an <strong>${TARGET_EMAIL}</strong> gesendet.`;
         feedback.classList.add('is-visible');
       }
       form.reset();
+      form.dataset.renderedAt = Date.now().toString();
 
       if (submitBtn) {
         submitBtn.disabled = false;
@@ -281,4 +384,45 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
+
+  // ======================= FLOATING WHATSAPP CHAT =======================
+  const waTriggerBtn = document.getElementById('wa-trigger-btn');
+  const waCard = document.getElementById('wa-card');
+  const waCloseBtn = document.getElementById('wa-close-btn');
+
+  if (waTriggerBtn && waCard) {
+    const toggleWa = (open) => {
+      const isOpen = open !== undefined ? open : !waCard.classList.contains('is-open');
+      waCard.classList.toggle('is-open', isOpen);
+      waCard.setAttribute('aria-hidden', !isOpen);
+      waTriggerBtn.setAttribute('aria-expanded', isOpen);
+    };
+
+    waTriggerBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
+      toggleWa();
+    });
+
+    if (waCloseBtn) {
+      waCloseBtn.addEventListener('click', (e) => {
+        e.stopPropagation();
+        toggleWa(false);
+      });
+    }
+
+    // Close on click outside
+    document.addEventListener('click', (e) => {
+      if (!waCard.contains(e.target) && !waTriggerBtn.contains(e.target)) {
+        toggleWa(false);
+      }
+    });
+
+    // Close on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && waCard.classList.contains('is-open')) {
+        toggleWa(false);
+      }
+    });
+  }
+
 });
