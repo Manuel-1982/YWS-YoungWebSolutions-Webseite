@@ -170,7 +170,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     signature: {
       name: 'Paket 03: Signature (1.890 €)',
-      text: 'Perfekt für besondere Ansprüche: Maßgeschneiderte Zusatz-Features, individuelles Konzept und bis zu 5 persönliche Abstimmungsrunden.',
+      text: 'Perfekt für besondere Ansprüche: Spezielle Funktionen, individuelles Konzept und mehrere Abstimmungsrunden für den Feinschliff.',
       cardId: 'signature',
       selectValue: 'Signature (Pro-Paket – 1.890 €)'
     }
