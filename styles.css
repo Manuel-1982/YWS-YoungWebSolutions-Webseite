@@ -164,6 +164,8 @@ h1, h2, h3, h4 {
   font-weight: 800;
   line-height: 1.18;
   letter-spacing: -0.025em;
+  overflow-wrap: break-word;
+  hyphens: auto;
 }
 
 .h1-display {
@@ -1653,6 +1655,12 @@ textarea.form-control {
   max-width: 840px;
   margin: 0 auto;
   padding: 4rem 1.5rem 5.5rem;
+}
+
+.legal-container h1 {
+  font-size: clamp(1.65rem, 5.5vw, 2.35rem);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
 }
 
 .legal-card {
