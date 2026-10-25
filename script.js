@@ -198,8 +198,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <strong style="color:var(--yws-navy);display:block;font-size:1.02rem;">${rec.name}</strong>
             <span style="color:var(--text-muted);font-size:0.9rem;">${rec.text}</span>
           </div>
-          <a href="#anfrage" class="btn btn--primary btn--sm" data-select-package="${rec.selectValue}">
-            Dieses Paket wählen →
+          <a href="#${rec.cardId}" class="btn btn--primary btn--sm">
+            Zu den Paket-Details →
           </a>
         `;
 
