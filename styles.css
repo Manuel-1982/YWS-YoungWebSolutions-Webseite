@@ -2025,6 +2025,21 @@ textarea.form-control {
   }
 }
 
+@media (max-width: 640px) {
+  .profile-card {
+    padding: 1.6rem 1.25rem;
+  }
+
+  .profile-facts {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .profile-fact {
+    padding: 0.85rem 1.1rem;
+  }
+}
+
 @media (max-width: 520px) {
   .showcase-card {
     padding: 1rem 0.75rem;
