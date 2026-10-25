@@ -262,10 +262,10 @@ document.addEventListener('DOMContentLoaded', () => {
       const submitBtn = form.querySelector('button[type="submit"]');
       const originalBtnText = submitBtn ? submitBtn.textContent : '';
 
-      // 1. Cookie-freier Spamschutz: Honeypot-Check
+      // 1. Cookie-freier Spamschutz: Bot-Check
       const honeyVal = (form.querySelector('[name="_honey"]')?.value || '').trim();
       if (honeyVal) {
-        console.warn('Spam-Bot abgefangen (Honeypot-Feld war befüllt).');
+        console.warn('Spam-Bot abgefangen (Spamschutz-Feld war befüllt).');
         if (feedback) {
           feedback.innerHTML = `Vielen Dank für Ihre Nachricht!`;
           feedback.classList.add('is-visible');
