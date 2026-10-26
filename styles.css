@@ -2241,259 +2241,109 @@ textarea.form-control {
 }
 
 /* ==========================================================================
-   Floating WhatsApp Chat Widget
+   Solutions & Offerings Grid (4 Core Solutions)
    ========================================================================== */
 
-.wa-widget {
-  position: fixed;
-  bottom: 24px;
-  right: 24px;
-  z-index: 99;
-  font-family: inherit;
+.solutions-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.5rem;
+  margin-top: 2.2rem;
 }
 
-/* Floating Trigger Button */
-.wa-trigger-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.65rem;
-  background: #25D366;
-  color: #FFFFFF;
-  border: none;
-  border-radius: 999px;
-  padding: 0.75rem 1.25rem 0.75rem 0.95rem;
-  font-size: 0.95rem;
+@media (max-width: 1080px) {
+  .solutions-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .solutions-grid {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+  }
+}
+
+.solution-card {
+  background: var(--bg-white);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.75rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+  box-shadow: var(--shadow-sm);
+  position: relative;
+}
+
+.solution-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-hover);
+}
+
+.solution-card__badge {
+  align-self: flex-start;
+  font-size: 0.72rem;
   font-weight: 700;
-  cursor: pointer;
-  box-shadow: 0 4px 18px rgba(37, 211, 102, 0.38), 0 2px 6px rgba(0, 0, 0, 0.12);
-  transition: transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.25s ease, background-color 0.2s ease;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--yws-green-dark);
+  background: rgba(30, 150, 80, 0.09);
+  padding: 0.28rem 0.65rem;
+  border-radius: 999px;
+  margin-bottom: 1.1rem;
 }
 
-.wa-trigger-btn:hover {
-  background: #20BA5A;
-  transform: translateY(-2px) scale(1.02);
-  box-shadow: 0 6px 22px rgba(37, 211, 102, 0.48), 0 3px 8px rgba(0, 0, 0, 0.14);
-}
-
-.wa-trigger-btn__icon {
+.solution-card__icon {
+  width: 52px;
+  height: 52px;
+  border-radius: var(--radius-sm);
+  background: rgba(14, 30, 54, 0.04);
+  color: var(--yws-navy);
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 28px;
-  height: 28px;
+  margin-bottom: 1.2rem;
+  transition: background 0.2s ease, color 0.2s ease;
 }
 
-.wa-trigger-btn__label {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.45rem;
+.solution-card:hover .solution-card__icon {
+  background: var(--yws-navy);
+  color: #ffffff;
 }
 
-.wa-online-pulse {
-  width: 8px;
-  height: 8px;
-  background: #FFFFFF;
-  border-radius: 50%;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-  animation: waPulse 2s infinite;
+.solution-card__title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--yws-navy);
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
 }
 
-@keyframes waPulse {
-  0% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7);
-  }
-  70% {
-    box-shadow: 0 0 0 6px rgba(255, 255, 255, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 0 rgba(255, 255, 255, 0);
-  }
-}
-
-/* Chat Card Popup */
-.wa-card {
-  position: absolute;
-  bottom: calc(100% + 14px);
-  right: 0;
-  width: 340px;
-  background: #FFFFFF;
-  border-radius: var(--radius-md);
-  box-shadow: 0 12px 36px rgba(15, 23, 42, 0.18), 0 2px 8px rgba(15, 23, 42, 0.08);
-  border: 1px solid var(--border-light);
-  overflow: hidden;
-  opacity: 0;
-  visibility: hidden;
-  transform: translateY(12px) scale(0.96);
-  transform-origin: bottom right;
-  transition: opacity 0.25s ease, transform 0.25s cubic-bezier(0.34, 1.56, 0.64, 1), visibility 0.25s;
-  pointer-events: none;
-}
-
-.wa-card.is-open {
-  opacity: 1;
-  visibility: visible;
-  transform: translateY(0) scale(1);
-  pointer-events: auto;
-}
-
-.wa-card__header {
-  background: linear-gradient(135deg, var(--yws-navy) 0%, #1a365d 100%);
-  color: #FFFFFF;
-  padding: 1.1rem 1.2rem;
-  display: flex;
-  align-items: center;
-  gap: 0.85rem;
-  position: relative;
-}
-
-.wa-card__avatar {
-  position: relative;
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  overflow: visible;
-  flex-shrink: 0;
-}
-
-.wa-card__avatar img {
-  width: 44px;
-  height: 44px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid #FFFFFF;
-}
-
-.wa-status-dot {
-  position: absolute;
-  bottom: 1px;
-  right: 1px;
-  width: 11px;
-  height: 11px;
-  background: #25D366;
-  border-radius: 50%;
-  border: 2px solid #FFFFFF;
-}
-
-.wa-card__info {
+.solution-card__desc {
+  font-size: 0.92rem;
+  color: var(--text-muted);
+  line-height: 1.55;
+  margin-bottom: 1.4rem;
   flex-grow: 1;
 }
 
-.wa-card__name {
-  display: block;
-  font-size: 0.96rem;
-  font-weight: 700;
-  color: #FFFFFF;
-  line-height: 1.25;
-}
-
-.wa-card__subtitle {
-  display: block;
-  font-size: 0.74rem;
-  color: rgba(255, 255, 255, 0.82);
-  margin-top: 0.15rem;
-}
-
-.wa-card__close {
-  background: transparent;
-  border: none;
-  color: rgba(255, 255, 255, 0.7);
-  font-size: 1.1rem;
-  cursor: pointer;
-  padding: 0.2rem 0.4rem;
-  border-radius: 4px;
-  transition: color 0.15s ease, background 0.15s ease;
-}
-
-.wa-card__close:hover {
-  color: #FFFFFF;
-  background: rgba(255, 255, 255, 0.15);
-}
-
-.wa-card__body {
-  padding: 1.2rem;
-  background: #F8FAFC;
-  background-image: radial-gradient(#CBD5E1 0.75px, transparent 0.75px);
-  background-size: 14px 14px;
-}
-
-.wa-msg {
-  background: #FFFFFF;
-  padding: 0.85rem 1rem;
-  border-radius: 12px 12px 12px 2px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(226, 232, 240, 0.8);
-  font-size: 0.88rem;
-  color: var(--text-body);
-  line-height: 1.48;
-}
-
-.wa-msg p {
-  margin: 0;
-}
-
-.wa-msg__time {
-  display: block;
-  font-size: 0.68rem;
-  color: var(--text-muted);
-  text-align: right;
-  margin-top: 0.35rem;
-}
-
-.wa-card__footer {
-  padding: 1rem 1.2rem 1.1rem;
-  background: #FFFFFF;
-  display: flex;
-  flex-direction: column;
-  gap: 0.55rem;
+.solution-card__footer {
+  padding-top: 1rem;
   border-top: 1px solid var(--border-light);
+  font-size: 0.82rem;
+  color: var(--text-light);
 }
 
-.wa-btn {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.55rem;
-  padding: 0.75rem 1.1rem;
-  border-radius: var(--radius-sm);
-  font-size: 0.92rem;
-  font-weight: 700;
-  text-decoration: none;
-  transition: transform 0.15s ease, filter 0.15s ease;
+.solution-card__tag strong {
+  color: var(--yws-navy);
 }
 
-.wa-btn--whatsapp {
-  background: #25D366;
-  color: #FFFFFF;
-  box-shadow: 0 2px 8px rgba(37, 211, 102, 0.3);
-}
-
-.wa-btn--whatsapp:hover {
-  filter: brightness(1.05);
-  transform: translateY(-1px);
-}
-
-.wa-card__hint {
-  font-size: 0.68rem;
-  color: var(--text-muted);
-  text-align: center;
-  line-height: 1.35;
-}
-
-/* Mobile Responsiveness */
-@media (max-width: 640px) {
-  .wa-widget {
-    bottom: 18px;
-    right: 18px;
-  }
-  .wa-card {
-    width: calc(100vw - 36px);
-    right: 0;
-    max-width: 340px;
-  }
-  .wa-trigger-btn {
-    padding: 0.7rem 1.05rem 0.7rem 0.85rem;
-    font-size: 0.88rem;
-  }
+/* Package price modifier for textual pricing like 'Auf Anfrage' */
+.package-price--text {
+  font-size: clamp(1.85rem, 2.2vw, 2.25rem) !important;
+  letter-spacing: -0.02em;
 }
 
 /* Cookie-freier Spam-Schutz Hinweis */

@@ -164,15 +164,15 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     evolution: {
       name: 'Paket 02: Evolution (990 €)',
-      text: 'Meine Empfehlung: Ich überarbeite Ihre Seite optisch und ergänze gezielt neue Bereiche oder Inhalte in 2 persönlichen Abstimmungsrunden.',
+      text: 'Meine Empfehlung: Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und bis zu 8 Unterseiten als reine Content- & High-Speed-Website (2 Abstimmungsrunden).',
       cardId: 'evolution',
       selectValue: 'Evolution (Medium-Paket – 990 €)'
     },
     signature: {
-      name: 'Paket 03: Signature (1.890 €)',
-      text: 'Perfekt für besondere Ansprüche: Spezielle Funktionen, individuelles Konzept und mehrere Abstimmungsrunden für den Feinschliff.',
+      name: 'Paket 03: Signature (Auf Anfrage)',
+      text: 'Perfekt für Spezial-Features: WordPress zur Text-Selbstpflege, individuelle Rechner/Konfiguratoren, Online-Buchung und bis zu 5 Abstimmungsrunden.',
       cardId: 'signature',
-      selectValue: 'Signature (Pro-Paket – 1.890 €)'
+      selectValue: 'Signature (Pro-Paket – Auf Anfrage)'
     }
   };
 
@@ -384,8 +384,5 @@ document.addEventListener('DOMContentLoaded', () => {
       }
     });
   });
-
-    });
-  }
 
 });
