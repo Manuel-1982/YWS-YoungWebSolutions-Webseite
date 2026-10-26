@@ -1852,6 +1852,15 @@ textarea.form-control {
   flex: 1;
 }
 
+
+.text-nowrap {
+  white-space: nowrap;
+}
+
+.about-grid .h1-display {
+  font-size: clamp(1.85rem, 5vw, 3.5rem);
+}
+
 .about-grid {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
