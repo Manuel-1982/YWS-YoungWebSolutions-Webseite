@@ -172,7 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'Paket 03: Signature (Auf Anfrage)',
       text: 'Perfekt für Spezial-Features: WordPress zur Text-Selbstpflege, individuelle Rechner/Konfiguratoren, Online-Buchung und bis zu 5 Abstimmungsrunden.',
       cardId: 'signature',
-      selectValue: 'Signature (Pro-Paket – Auf Anfrage)'
+      selectValue: 'Signature / Individuelles Angebot & Beratung (Auf Anfrage)'
     }
   };
 
