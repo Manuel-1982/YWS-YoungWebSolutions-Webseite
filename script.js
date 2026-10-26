@@ -385,43 +385,6 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
-  // ======================= FLOATING WHATSAPP CHAT =======================
-  const waTriggerBtn = document.getElementById('wa-trigger-btn');
-  const waCard = document.getElementById('wa-card');
-  const waCloseBtn = document.getElementById('wa-close-btn');
-
-  if (waTriggerBtn && waCard) {
-    const toggleWa = (open) => {
-      const isOpen = open !== undefined ? open : !waCard.classList.contains('is-open');
-      waCard.classList.toggle('is-open', isOpen);
-      waCard.setAttribute('aria-hidden', !isOpen);
-      waTriggerBtn.setAttribute('aria-expanded', isOpen);
-    };
-
-    waTriggerBtn.addEventListener('click', (e) => {
-      e.stopPropagation();
-      toggleWa();
-    });
-
-    if (waCloseBtn) {
-      waCloseBtn.addEventListener('click', (e) => {
-        e.stopPropagation();
-        toggleWa(false);
-      });
-    }
-
-    // Close on click outside
-    document.addEventListener('click', (e) => {
-      if (!waCard.contains(e.target) && !waTriggerBtn.contains(e.target)) {
-        toggleWa(false);
-      }
-    });
-
-    // Close on Escape key
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && waCard.classList.contains('is-open')) {
-        toggleWa(false);
-      }
     });
   }
 
