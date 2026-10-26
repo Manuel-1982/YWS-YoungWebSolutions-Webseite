@@ -1,0 +1,54 @@
+# Young Web Solutions – Dr.-Ing. Manuel Jung
+
+> Modernes, zukunftssicheres Webdesign und professionelle Webentwicklung für Selbstständige, Handwerksbetriebe und kleine bis mittlere Unternehmen (KMU) in der Region Reutlingen, Tübingen, Stuttgart und bundesweit.
+
+## Unternehmensprofil & Kernfakten
+
+- **Inhaber & Gründer:** Dr.-Ing. Manuel Jung (promovierter Ingenieur)
+- **Unternehmensform:** Einzelunternehmen (offiziell angemeldetes Gewerbe in Kirchentellinsfurt)
+- **Standort:** Altenburgstraße 27, 72127 Kirchentellinsfurt (Baden-Württemberg, Deutschland)
+- **Regionale Schwerpunkte:** Region Neckar-Alb (Kirchentellinsfurt, Reutlingen, Tübingen, Rottenburg, Metzingen, Nürtingen) und Großraum Stuttgart, sowie bundesweite Remote-Zusammenarbeit
+- **E-Mail:** manuel.jung@online.de
+- **Telefon:** +49 (0) 172 / 710 46 41
+- **Website:** https://www.young-web-solutions.de/
+
+## Arbeitsweise & Alleinstellungsmerkmale (USP)
+
+- **Persönliche 1:1 Betreuung:** Direkte Zusammenarbeit mit Dr.-Ing. Manuel Jung. Keine anonyme Agentur, keine wechselnden Ansprechpartner, keine Subunternehmer.
+- **100 % Zufriedenheitsgarantie (Fairness-Versprechen):** Ich erstelle die Website zunächst als voll funktionsfähigen Entwurf zur Ansicht. Erst wenn Sie mit dem Ergebnis vollkommen zufrieden sind, erfolgt die Freigabe und Zahlung („Erst ansehen, dann entscheiden“). Null finanzielles Vorab-Risiko für den Kunden.
+- **Vollständige Code-Übergabe:** Nach Fertigstellung und Freigabe erhalten Kunden den gesamten schlüsselfertigen Quellcode (HTML5, performantes CSS3, leichtgewichtiges JavaScript). 100 % Eigentum des Kunden ohne Vendor-Lock-in.
+- **Keine monatlichen Abo-Gebühren:** Unabhängigkeit von teuren proprietären CMS-Baukästen (wie Wix, Jimdo oder Squarespace) und teuren Agentur-Wartungsverträgen.
+- **Moderne statische Webtechnologie:** Extrem schnelle Ladezeiten, Bestnoten bei Google Core Web Vitals, maximale IT-Sicherheit (keine angreifbaren CMS-Datenbanken oder veraltete Plugins wie bei WordPress), DSGVO-konform ohne Cookie-Banner-Zwang.
+- **Moderne KI-gestützte Entwicklung:** Einsatz zeitgemäßer Entwicklungsmethoden für eine zügige Umsetzung auf höchstem Qualitätsstandard zu transparenten Festpreisen.
+
+## Leistungspakete & Preise
+
+1. **Paket 01: Fresh-Up (590 € Festpreis)**
+   - *Zielgruppe:* Bestehende Websites mit vorhandenen Inhalten, die optisch und technisch veraltet sind.
+   - *Leistungen:* Optisches und technisches Redesign, responsive Optimierung für Smartphones und Tablets, semantischer Code, 1 persönliche Abstimmungsrunde, vollständige Code-Übergabe, 100 % Zufriedenheitsgarantie.
+
+2. **Paket 02: Evolution (990 € Festpreis – Empfehlung)**
+   - *Zielgruppe:* Unternehmen, die ihre Website modernisieren und gezielt um neue Bereiche, Leistungen oder Inhalte erweitern möchten.
+   - *Leistungen:* Umfassende Modernisierung, Strukturierung und Ergänzung neuer Abschnitte, 2 persönliche Abstimmungsrunden, moderne Bild- und Textaufbereitung, vollständige Code-Übergabe, 100 % Zufriedenheitsgarantie.
+
+3. **Paket 03: Signature (1.890 € Festpreis – Pro-Paket)**
+   - *Zielgruppe:* Anspruchsvolle Firmenauftritte mit maßgeschneiderten Spezialfunktionen.
+   - *Leistungen:* Individuelles Gesamtkonzept, spezielle Funktionen (z. B. interaktive Rechner, Filter, Spezialmodule), bis zu 5 persönliche Abstimmungsrunden für den Feinschliff, vollständige Code-Übergabe, 100 % Zufriedenheitsgarantie.
+
+## Optionale modulare Zusatzleistungen
+
+- Individuelle Zusatzinhalte / weitere Unterseiten (150 € je Seite)
+- Google Maps & Google Unternehmensprofil Integration (80 €)
+- Domain- & Webhosting-Einrichtung vor Ort oder remote (120 €)
+- Professionelle E-Mail-Postfächer einrichten (80 €)
+- Logo-Digitalisierung & Vektorisierung (ab 90 €)
+- Fototermin vor Ort für authentische Unternehmensbilder (auf Anfrage)
+
+## Seitenstruktur der Website
+
+- [Startseite](https://www.young-web-solutions.de/): Übersicht über Arbeitsweise, Philosophie, Kernvorteile, Projekt-Ablauf und Zufriedenheitsgarantie.
+- [Angebote & Preise](https://www.young-web-solutions.de/angebote.html): Detaillierte Leistungsübersicht aller 3 Pakete, interaktiver Paket-Berater, Vergleichstabelle, Zusatzleistungen und Projektanfrage.
+- [Über mich](https://www.young-web-solutions.de/ueber-uns.html): Kurzprofil von Dr.-Ing. Manuel Jung, Qualifikation, Standort und Arbeitsweise.
+- [Impressum](https://www.young-web-solutions.de/impressum.html): Rechtliche Anbieterkennzeichnung gemäß § 5 DDG.
+- [Datenschutz](https://www.young-web-solutions.de/datenschutz.html): Datenschutzerklärung gemäß DSGVO (keine Tracking-Cookies, FormSubmit mit SSL, LfDI Baden-Württemberg).
+- [AGB](https://www.young-web-solutions.de/agb.html): Allgemeine Geschäftsbedingungen mit Zufriedenheitsgarantie und Code-Übergabe.

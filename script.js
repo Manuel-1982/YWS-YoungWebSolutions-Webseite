@@ -158,13 +158,13 @@ document.addEventListener('DOMContentLoaded', () => {
   const recommendations = {
     freshup: {
       name: 'Paket 01: Fresh-Up (590 €)',
-      text: 'Ideal für Sie: Da Ihre Inhalte bereits stehen, konzentrieren wir uns voll auf die moderne Optik und mobile Ansicht – zügig und schlüsselfertig.',
+      text: 'Ideal für Sie: Da Ihre Inhalte bereits stehen, konzentriere ich mich voll auf die moderne Optik und mobile Ansicht – zügig und schlüsselfertig.',
       cardId: 'freshup',
       selectValue: 'Fresh-Up (Basispaket – 590 €)'
     },
     evolution: {
       name: 'Paket 02: Evolution (990 €)',
-      text: 'Unsere Empfehlung: Wir überarbeiten Ihre Seite optisch und ergänzen gezielt neue Bereiche oder Inhalte in 2 persönlichen Abstimmungsrunden.',
+      text: 'Meine Empfehlung: Ich überarbeite Ihre Seite optisch und ergänze gezielt neue Bereiche oder Inhalte in 2 persönlichen Abstimmungsrunden.',
       cardId: 'evolution',
       selectValue: 'Evolution (Medium-Paket – 990 €)'
     },
