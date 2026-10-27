@@ -18,7 +18,7 @@
 - **100 % Zufriedenheitsgarantie (Fairness-Versprechen):** Ich erstelle die Website zunächst als voll funktionsfähigen Entwurf zur Ansicht. Erst wenn Sie mit dem Ergebnis vollkommen zufrieden sind, erfolgt die Freigabe und Zahlung („Erst ansehen, dann entscheiden“). Null finanzielles Vorab-Risiko für den Kunden.
 - **Vollständige Code-Übergabe:** Nach Fertigstellung und Freigabe erhalten Kunden den gesamten schlüsselfertigen Quellcode (HTML5, performantes CSS3, leichtgewichtiges JavaScript). 100 % Eigentum des Kunden ohne Vendor-Lock-in.
 - **Keine monatlichen Abo-Gebühren:** Unabhängigkeit von teuren proprietären CMS-Baukästen (wie Wix, Jimdo oder Squarespace) und teuren Agentur-Wartungsverträgen.
-- **Moderne Webtechnologie:** Extrem schnelle Ladezeiten, Bestnoten bei Google Core Web Vitals, maximale IT-Sicherheit (keine angreifbaren CMS-Datenbanken oder veraltete Plugins bei statischen Websites), DSGVO-konform ohne Cookie-Banner-Zwang.
+- **Moderne Webtechnologie:** Extrem schnelle Ladezeiten, Bestnoten bei Google Core Web Vitals, maximale IT-Sicherheit (keine angreifbaren CMS-Datenbanken oder veraltete Plugins bei statischen Websites), Datenschutzfreundlich ohne Cookie-Banner-Zwang.
 - **Moderne KI-gestützte Entwicklung:** Einsatz zeitgemäßer Entwicklungsmethoden für eine zügige Umsetzung auf höchstem Qualitätsstandard zu transparenten Festpreisen.
 
 ## Kern-Lösungen & Web-Formate
