@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     evolution: {
       name: 'Paket 02: Evolution (990 €)',
-      text: 'Meine Empfehlung: Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und bis zu 8 Unterseiten als reine Content- & High-Speed-Website (2 Abstimmungsrunden telefonisch oder per Video-Call).',
+      text: 'Meine Empfehlung: Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (2 Abstimmungsrunden telefonisch oder per Video-Call).',
       cardId: 'evolution',
       selectValue: 'Evolution (Medium-Paket – 990 €)'
     },
