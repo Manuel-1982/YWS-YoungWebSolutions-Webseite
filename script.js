@@ -169,13 +169,13 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     evolution: {
       name: 'Paket 02: Evolution (990 €)',
-      text: 'Meine Empfehlung: Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und bis zu 8 Unterseiten als reine Content- & High-Speed-Website (2 Abstimmungsrunden).',
+      text: 'Meine Empfehlung: Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und bis zu 8 Unterseiten als reine Content- & High-Speed-Website (2 Abstimmungsrunden telefonisch oder per Video-Call).',
       cardId: 'evolution',
       selectValue: 'Evolution (Medium-Paket – 990 €)'
     },
     signature: {
       name: 'Paket 03: Signature (Auf Anfrage)',
-      text: 'Perfekt für Spezial-Features: CMS zur Text-Selbstpflege, individuelle Rechner/Konfiguratoren, Online-Buchung und bis zu 5 Abstimmungsrunden.',
+      text: 'Perfekt für Spezial-Features: CMS zur Text-Selbstpflege, individuelle Rechner/Konfiguratoren, Online-Buchung und bis zu 5 Abstimmungsrunden (telefonisch oder per Video-Call).',
       cardId: 'signature',
       selectValue: 'Signature / Individuelles Angebot & Beratung (Auf Anfrage)'
     }
