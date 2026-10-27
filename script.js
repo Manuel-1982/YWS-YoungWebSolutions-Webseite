@@ -175,7 +175,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     signature: {
       name: 'Paket 03: Signature (Auf Anfrage)',
-      text: 'Perfekt für Spezial-Features: CMS zur Text-Selbstpflege, individuelle Rechner/Konfiguratoren, Online-Buchung und bis zu 5 Abstimmungsrunden (telefonisch oder per Video-Call).',
+      text: 'Perfekt für Spezial-Features: Eigenes Redaktionssystem (CMS) zur Text- & Bildpflege, individuelle Rechner/Konfiguratoren, Online-Buchung und bis zu 6 Abstimmungsrunden (telefonisch oder per Video-Call).',
       cardId: 'signature',
       selectValue: 'Signature / Individuelles Angebot & Beratung (Auf Anfrage)'
     }
