@@ -23,9 +23,9 @@
 
 ## Kern-Lösungen & Web-Formate
 
-1. **High-Speed Websites (Wartungsfrei & ultraschnell):** Handcodierte, schlanke Webseiten ohne schwerfällige Datenbanken oder Update-Zwang. Ladezeiten unter 1 Sekunde, maximale Sicherheit und dauerhaft 0 € Wartungsaufwand (in Paket 01 & 02).
+1. **High-Speed Websites (Wartungsfrei & ultraschnell):** Schlanke, maßgeschneiderte Webseiten ohne schwerfällige Datenbanken oder Update-Zwang. Ladezeiten unter 1 Sekunde, maximale Sicherheit und dauerhaft 0 € Wartungsaufwand (in Paket 01 & 02).
 2. **Kompakte One-Pager & Landingpages (Fokussiert auf Anfragen):** Alle Kerninformationen, Leistungen und Verkaufsargumente auf einer einzigen, übersichtlichen Seite. Mit klaren Call-to-Actions optimiert, um Besucher zügig in Anfragen zu verwandeln (in Paket 01 & 02).
-3. **WordPress-Lösungen (Für Betriebe, die selbst Texte & Bilder pflegen möchten):** Maßgeschneidertes, intuitiv bedienbares Redaktionssystem (CMS) für Unternehmen, die Neuigkeiten, Blogartikel, Teammitglieder oder Speisekarten eigenständig pflegen wollen (Bestandteil von Paket 03: Signature).
+3. **Flexible CMS-Lösungen (Für Betriebe, die selbst Texte & Bilder pflegen möchten):** Maßgeschneidertes, intuitiv bedienbares Redaktionssystem (CMS) für Unternehmen, die Neuigkeiten, Blogartikel, Teammitglieder oder Speisekarten eigenständig pflegen wollen (Bestandteil von Paket 03: Signature).
 4. **Individuelle Konfiguratoren & Rechner (Interaktive Beratungs-Tools für Handwerk & Industrie):** Maßgeschneiderte Online-Rechner, Angebots-Konfiguratoren und digitale Buchungstools, die Beratungszeit sparen und vorqualifizierte Anfragen liefern (Bestandteil von Paket 03: Signature).
 
 ## Leistungspakete & Preise
@@ -42,7 +42,7 @@
 
 3. **Paket 03: Signature (Auf Anfrage – Pro-Paket)**
    - *Fokus:* Anspruchsvolle Firmenauftritte mit maßgeschneiderten Spezialfunktionen.
-   - *Inhalt & Spezial-Features:* Optional als WordPress-Lösung zur Selbstpflege, individuelle Konfiguratoren & Rechner (Handwerk & Industrie), Online-Terminbuchung, Filter-Galerien oder mehrstufige Formulare.
+   - *Inhalt & Spezial-Features:* Optional als CMS-Lösung zur Selbstpflege, individuelle Konfiguratoren & Rechner (Handwerk & Industrie), Online-Terminbuchung, Filter-Galerien oder mehrstufige Formulare.
    - *Leistungen:* Individuelles Gesamtkonzept (bis zu 14 Unterseiten oder nach Projektbedarf), bis zu 5 persönliche Abstimmungsrunden für den Feinschliff, intensive Betreuung, vollständige Code-/CMS-Übergabe inkl. Einweisung, 100 % Zufriedenheitsgarantie.
 
 ## Optionale modulare Zusatzleistungen
