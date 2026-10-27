@@ -36,15 +36,20 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         </div>
         <div class="modern-browser__body">
-          <div>
-            <span class="modern-preview-badge">⚡ Elektro Schmidt • Meisterbetrieb</span>
-            <h3 class="modern-browser__title">Moderne Elektrotechnik &amp; Smarthome aus Meisterhand.</h3>
-            <p class="modern-browser__desc">
-              Zuverlässiger Kundenservice, transparente Festpreise und schnelle Termine in Ihrer Region.
-            </p>
-          </div>
-          <div>
-            <span class="modern-preview-btn">Angebot anfordern →</span>
+          <div class="modern-browser__main">
+            <div class="modern-browser__content">
+              <span class="modern-preview-badge">⚡ Elektro Schmidt • Meisterbetrieb</span>
+              <h3 class="modern-browser__title">Moderne Elektrotechnik &amp; Smarthome aus Meisterhand.</h3>
+              <p class="modern-browser__desc">
+                Zuverlässiger Meisterbetrieb für Elektro, Smarthome und faire Festpreise.
+              </p>
+              <div class="modern-browser__cta">
+                <span class="modern-preview-btn">Angebot anfordern →</span>
+              </div>
+            </div>
+            <div class="modern-browser__media">
+              <img src="assets/elektro-preview.jpg" alt="Elektro Schmidt Smarthome &amp; Meisterbetrieb" class="modern-preview-img" width="108" height="116" loading="lazy">
+            </div>
           </div>
         </div>
       </div>
