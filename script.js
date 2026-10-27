@@ -162,22 +162,40 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const recommendations = {
     freshup: {
-      name: 'Paket 01: Fresh-Up (590 €)',
-      text: 'Ideal für Sie: Da Ihre Inhalte bereits stehen, konzentriere ich mich voll auf die moderne Optik und mobile Ansicht – zügig und schlüsselfertig.',
+      name: 'Paket Basis (Fresh-Up – 590 €)',
+      text: 'Das Website Fresh-Up: Da Ihre Inhalte bereits stehen, konzentriere ich mich voll auf die moderne Optik und mobile Ansicht – zügig und schlüsselfertig.',
       cardId: 'freshup',
-      selectValue: 'Fresh-Up (Basispaket – 590 €)'
+      selectValue: 'Paket Basis (Fresh-Up – 590 €)'
     },
     evolution: {
-      name: 'Paket 02: Evolution (990 €)',
-      text: 'Meine Empfehlung: Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + 2 persönliche Abstimmungsgespräche telefonisch oder per Video-Call).',
+      name: 'Paket Pro (Evolution – 990 €)',
+      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + 2 persönliche Abstimmungsgespräche telefonisch oder per Video-Call).',
       cardId: 'evolution',
-      selectValue: 'Evolution (Pro-Paket – 990 €)'
+      selectValue: 'Paket Pro (Evolution – 990 €)'
     },
     signature: {
-      name: 'Paket 03: Signature (Auf Anfrage)',
-      text: 'Perfekt für Spezial-Features: Eigenes Redaktionssystem (CMS) zur Text- & Bildpflege, individuelle Rechner/Konfiguratoren, Online-Buchung, Startgespräch und bis zu 5 persönliche Abstimmungsgespräche (telefonisch oder per Video-Call).',
+      name: 'Paket Plus (Signature – Auf Anfrage)',
+      text: 'Die Individuallösung: Perfekt für Spezial-Features: Eigenes Redaktionssystem (CMS) zur Text- & Bildpflege, individuelle Rechner/Konfiguratoren, Online-Buchung, Startgespräch und bis zu 5 persönliche Abstimmungsgespräche (telefonisch oder per Video-Call).',
       cardId: 'signature',
-      selectValue: 'Signature (Plus) / Individuelles Angebot & Beratung (Auf Anfrage)'
+      selectValue: 'Paket Plus (Signature – Auf Anfrage)'
+    },
+    basis: {
+      name: 'Paket Basis (Fresh-Up – 590 €)',
+      text: 'Das Website Fresh-Up: Da Ihre Inhalte bereits stehen, konzentriere ich mich voll auf die moderne Optik und mobile Ansicht – zügig und schlüsselfertig.',
+      cardId: 'freshup',
+      selectValue: 'Paket Basis (Fresh-Up – 590 €)'
+    },
+    pro: {
+      name: 'Paket Pro (Evolution – 990 €)',
+      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + 2 persönliche Abstimmungsgespräche telefonisch oder per Video-Call).',
+      cardId: 'evolution',
+      selectValue: 'Paket Pro (Evolution – 990 €)'
+    },
+    plus: {
+      name: 'Paket Plus (Signature – Auf Anfrage)',
+      text: 'Die Individuallösung: Perfekt für Spezial-Features: Eigenes Redaktionssystem (CMS) zur Text- & Bildpflege, individuelle Rechner/Konfiguratoren, Online-Buchung, Startgespräch und bis zu 5 persönliche Abstimmungsgespräche (telefonisch oder per Video-Call).',
+      cardId: 'signature',
+      selectValue: 'Paket Plus (Signature – Auf Anfrage)'
     }
   };
 
