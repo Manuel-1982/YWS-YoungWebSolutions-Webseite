@@ -171,13 +171,13 @@ document.addEventListener('DOMContentLoaded', () => {
       name: 'Paket 02: Evolution (990 €)',
       text: 'Meine Empfehlung: Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (3 Abstimmungsrunden telefonisch oder per Video-Call).',
       cardId: 'evolution',
-      selectValue: 'Evolution (Medium-Paket – 990 €)'
+      selectValue: 'Evolution (Pro-Paket – 990 €)'
     },
     signature: {
       name: 'Paket 03: Signature (Auf Anfrage)',
       text: 'Perfekt für Spezial-Features: Eigenes Redaktionssystem (CMS) zur Text- & Bildpflege, individuelle Rechner/Konfiguratoren, Online-Buchung und bis zu 6 Abstimmungsrunden (telefonisch oder per Video-Call).',
       cardId: 'signature',
-      selectValue: 'Signature / Individuelles Angebot & Beratung (Auf Anfrage)'
+      selectValue: 'Signature (Plus) / Individuelles Angebot & Beratung (Auf Anfrage)'
     }
   };
 
