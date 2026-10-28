@@ -169,7 +169,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     evolution: {
       name: 'Paket Pro (Evolution – 990 €)',
-      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + 2 persönliche Abstimmungsgespräche telefonisch oder per Video-Call).',
+      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + zwei zusätzliche Abstimmungsrunden telefonisch oder per Video-Call).',
       cardId: 'evolution',
       selectValue: 'Paket Pro (Evolution – 990 €)'
     },
@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
     },
     pro: {
       name: 'Paket Pro (Evolution – 990 €)',
-      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + 2 persönliche Abstimmungsgespräche telefonisch oder per Video-Call).',
+      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + zwei zusätzliche Abstimmungsrunden telefonisch oder per Video-Call).',
       cardId: 'evolution',
       selectValue: 'Paket Pro (Evolution – 990 €)'
     },
