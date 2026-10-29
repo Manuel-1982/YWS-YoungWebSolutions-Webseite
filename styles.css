@@ -1176,8 +1176,10 @@ h1, h2, h3, h4 {
 }
 
 .tech-tag {
-  display: flex;
-  align-items: center;
+  display: grid;
+  grid-template-columns: 1.1em minmax(0, 1fr);
+  align-items: start;
+  column-gap: 0.35rem;
   background: var(--yws-navy-tint);
   color: var(--yws-navy);
   border: 1px solid rgba(26, 42, 74, 0.12);
@@ -1187,6 +1189,10 @@ h1, h2, h3, h4 {
   line-height: 1.35;
   min-height: 2.7rem;
   padding: 0.55rem 0.75rem;
+}
+
+.tech-tag__icon {
+  line-height: 1.35;
 }
 
 .pillar-card:nth-child(2) .pillar-icon {
@@ -2011,6 +2017,15 @@ textarea.form-control {
   .steps-grid,
   .finder-options {
     grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .hero {
+    background-image:
+      linear-gradient(180deg, rgba(255, 255, 255, 0.82) 0%, rgba(255, 255, 255, 0.72) 45%, rgba(230, 244, 236, 0.36) 100%),
+      url('assets/hero-banner.jpg');
+    background-position: 68% center;
   }
 }
 

@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt &amp; Terminbuchung | Zahnarztpraxis Musterpraxis</title>
+  <meta name="description" content="Kontaktieren Sie die Zahnarztpraxis Musterpraxis in der Musterstraße 1, 00000 Musterstadt. Telefon: +49 000 000000.">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="stylesheet" href="../demo-common.css">
+</head>
+<body>
+
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__info">
+        <span>Musterstraße 1, 00000 Musterstadt</span>
+        <span>Mo – Fr: 08:00 – 19:00 Uhr</span>
+      </div>
+      <div class="topbar__info">
+        <a href="tel:+49 000 000000">+49 000 000000</a>
+        <a href="mailto:kontakt@beispiel.invalid">kontakt@beispiel.invalid</a>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container header__inner">
+      <a href="index.html" class="brand">
+        <span class="brand__name">Musterpraxis</span>
+        <span class="brand__sub">Zahnmedizin &amp; Kieferorthopädie</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Hauptnavigation">
+        <ul class="nav-list">
+          <li><a href="index.html" class="nav-link">Startseite</a></li>
+          <li><a href="leistungen.html" class="nav-link">Leistungen</a></li>
+          <li><a href="ueber-uns.html" class="nav-link">Praxis &amp; Team</a></li>
+          <li><a href="index.html#galerie" class="nav-link">Einblicke</a></li>
+          <li><a href="index.html#faq" class="nav-link">FAQ</a></li>
+          <li><a href="kontakt.html" class="nav-link active">Kontakt</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="#kontaktformular" class="btn btn--primary">Termin anfragen</a>
+        <button class="menu-toggle" aria-label="Menü öffnen" aria-expanded="false">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+            <line x1="3" y1="7" x2="21" y2="7"></line>
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="17" x2="21" y2="17"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <span class="eyebrow">Kontakt &amp; Anfahrt</span>
+        <h1>Wir sind gerne für Sie da.</h1>
+        <p class="lead" style="max-width: 700px; margin-top: 20px;">
+          Vereinbaren Sie Ihren Beratungstermin für Zahnheilkunde oder Kieferorthopädie telefonisch, per E-Mail oder direkt über unser Online-Formular.
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="kontaktformular">
+      <div class="container booking-layout">
+        <div>
+          <span class="eyebrow">Praxisadresse</span>
+          <h2>Zahnarztpraxis Musterpraxis</h2>
+          <p class="text-body" style="margin: 16px 0 28px;">
+            Inhaber: Musterperson A<br>
+            Musterstraße 1<br>
+            00000 Musterstadt
+          </p>
+
+          <ul class="editorial-list">
+            <li>
+              <span>Telefon</span>
+              <span><a href="tel:+49 000 000000">+49 000 000000</a></span>
+            </li>
+            <li>
+              <span>E-Mail</span>
+              <span><a href="mailto:kontakt@beispiel.invalid">kontakt@beispiel.invalid</a></span>
+            </li>
+            <li>
+              <span>Sprechzeiten Mo, Di, Do</span>
+              <span>08:00 – 19:00 Uhr</span>
+            </li>
+            <li>
+              <span>Sprechzeiten Mi &amp; Fr</span>
+              <span>08:00 – 16:00 / 15:00 Uhr</span>
+            </li>
+          </ul>
+        </div>
+
+        <div>
+          <form class="form-purist js-interactive-form" aria-label="Kontakt- und Terminformular">
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="contact-name">Ihr Name *</label>
+                <input class="form-control" type="text" id="contact-name" name="name" placeholder="Vor- und Nachname" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-phone">Telefonnummer *</label>
+                <input class="form-control" type="tel" id="contact-phone" name="phone" placeholder="+49 000 000000" required>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="contact-email">E-Mail-Adresse *</label>
+                <input class="form-control" type="email" id="contact-email" name="email" placeholder="kontakt@beispiel.invalid" required>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="contact-subject">Anliegen</label>
+                <select class="form-control" id="contact-subject" name="subject">
+                  <option value="Terminwunsch Zahnmedizin">Terminwunsch Zahnmedizin</option>
+                  <option value="Terminwunsch Kieferorthopädie / Aligner">Terminwunsch Kieferorthopädie / Aligner</option>
+                  <option value="Ästhetik / Veneers / Implantologie">Ästhetik / Veneers / Implantologie</option>
+                  <option value="Allgemeine Rückfrage">Allgemeine Rückfrage</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="contact-message">Ihre Nachricht *</label>
+              <input class="form-control" type="text" id="contact-message" name="message" placeholder="Wie dürfen wir Ihnen helfen?" required>
+            </div>
+
+            <div>
+              <button type="submit" class="btn btn--primary">Nachricht absenden</button>
+            </div>
+
+            <div class="form-feedback" role="status">
+              Herzlichen Dank für Ihre Nachricht. Wir melden uns kurzfristig unter den angegebenen Kontaktdaten bei Ihnen zurück.
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--no-border" style="padding-top: 0;">
+      <div class="container">
+        <iframe
+          class="map-frame"
+          title="Standort Zahnarztpraxis Musterpraxis in 00000 Musterstadt"
+          loading="lazy" src="about:blank" data-demo-map="true">
+        </iframe>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-bottom" style="padding-top: 0;">
+        <div>&copy; 2026 Zahnarztpraxis Musterpraxis · Musterstraße 1, 00000 Musterstadt</div>
+        <div style="display: flex; gap: 24px;">
+          <a href="impressum.html">Impressum</a>
+          <a href="datenschutz.html">Datenschutz</a>
+          <a href="kontakt.html">Kontakt</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+  <script src="../demo-common.js" defer></script>
+</body>
+</html>

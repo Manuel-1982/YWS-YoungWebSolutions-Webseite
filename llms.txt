@@ -58,6 +58,7 @@
 
 - [Startseite](https://www.young-web-solutions.de/): Übersicht über Arbeitsweise, Philosophie, Kernvorteile, Portfolio der 4 Lösungen, 3 Pakete, Projekt-Ablauf und Zufriedenheitsgarantie.
 - [Angebote & Preise](https://www.young-web-solutions.de/angebote.html): Detaillierte Leistungsübersicht, Kernlösungen, interaktiver Paket-Berater, 3 Pakete, Vergleichstabelle, Zusatzleistungen und Projektanfrage.
+- [Musterseiten & Beispiele](https://www.young-web-solutions.de/beispiele.html): Interaktive Live-Musterseiten aus verschiedenen Branchen (Foto- & Medienstudio, Elektrotechnik, Catering, Kanzlei, Zahnarztpraxis).
 - [Über mich](https://www.young-web-solutions.de/ueber-uns.html): Kurzprofil von Dr.-Ing. Manuel Jung, Qualifikation, Standort und Arbeitsweise.
 - [Impressum](https://www.young-web-solutions.de/impressum.html): Rechtliche Anbieterkennzeichnung gemäß § 5 DDG.
 - [Datenschutz](https://www.young-web-solutions.de/datenschutz.html): Datenschutzerklärung gemäß DSGVO (keine Tracking-Cookies, FormSubmit mit SSL, LfDI Baden-Württemberg).
