@@ -25,8 +25,8 @@
 
 1. **High-Speed Websites (Wartungsfrei & ultraschnell):** Schlanke, maßgeschneiderte Webseiten ohne schwerfällige Datenbanken oder Update-Zwang. Ladezeiten unter 1 Sekunde, maximale Sicherheit und dauerhaft 0 € Wartungsaufwand (in Paket 01 & 02).
 2. **Kompakte One-Pager & Landingpages (Fokussiert auf Anfragen):** Alle Kerninformationen, Leistungen und Verkaufsargumente auf einer einzigen, übersichtlichen Seite. Mit klaren Call-to-Actions optimiert, um Besucher zügig in Anfragen zu verwandeln (in Paket 01 & 02).
-3. **Flexible CMS- & Redaktionssysteme (Für Betriebe, die selbst Texte & Bilder pflegen möchten):** Maßgeschneidertes, intuitiv bedienbares Redaktionssystem (CMS) für Unternehmen, die Neuigkeiten, Blogartikel, Teammitglieder oder Speisekarten eigenständig pflegen wollen (Bestandteil von Paket Plus: Signature).
-4. **Individuelle Konfiguratoren & Rechner (Interaktive Beratungs-Tools für Handwerk & Industrie):** Maßgeschneiderte Online-Rechner, Angebots-Konfiguratoren und digitale Buchungstools, die Beratungszeit sparen und vorqualifizierte Anfragen liefern (Bestandteil von Paket Plus: Signature).
+3. **Flexible CMS- & Redaktionssysteme (Für Betriebe, die selbst Texte & Bilder pflegen möchten):** Maßgeschneidertes, intuitiv bedienbares Redaktionssystem (CMS) für Unternehmen, die Neuigkeiten, Blogartikel, Teammitglieder oder Speisekarten eigenständig pflegen wollen (Bestandteil von Paket Pro: Signature).
+4. **Individuelle Konfiguratoren & Rechner (Interaktive Beratungs-Tools für Handwerk & Industrie):** Maßgeschneiderte Online-Rechner, Angebots-Konfiguratoren und digitale Buchungstools, die Beratungszeit sparen und vorqualifizierte Anfragen liefern (Bestandteil von Paket Pro: Signature).
 
 ## Leistungspakete & Preise
 
@@ -35,15 +35,15 @@
    - *Inhalt:* Übernahme der bestehenden Inhalte (Texte, Bilder, Logo) ohne neue Texte.
    - *Leistungen:* Modernes Design-Upgrade (bis 5 Unterseiten), responsive Optimierung für Smartphones und Tablets, semantischer Code, Persönliches Startgespräch und ein Abstimmungsgespräch zur Überarbeitung der erstellten Inhalte (telefonisch oder per Video-Call), vollständige Code-Übergabe, 100 % Zufriedenheitsgarantie.
 
-2. **Paket Pro (Evolution – 990 € Festpreis – Beliebteste Wahl & Empfehlung)**
-   - *Fokus:* Der Relaunch: Neues Design inklusive neuer Inhalte, neuer Texte & neuer Seitenstruktur.
-- *Inhalt:* Neue oder grundlegend überarbeitete Texte und Inhalte für mehrere Unterseiten nach Bedarf (z. B. Leistungen, Über uns, Team, Karriere).
+2. **Paket Plus (Evolution – 990 € Festpreis – Beliebteste Wahl & Empfehlung)**
+   - *Fokus:* Der Relaunch: Neues Design inklusive neuer Inhalte, neuer Texte & passender Seitenstruktur.
+   - *Inhalt:* Neue oder grundlegend überarbeitete Texte und Inhalte nach Bedarf.
    - *Leistungen:* Umfassendes Design, Ausarbeitung und Strukturierung neuer Abschnitte, alle Leistungen aus Paket Basis, zwei zusätzliche Abstimmungsrunden (telefonisch oder per Video-Call), moderne Bild- und Textaufbereitung, Kontaktformular & FAQ, vollständige Code-Übergabe, 100 % Zufriedenheitsgarantie.
 
-3. **Paket Plus (Signature – Auf Anfrage)**
+3. **Paket Pro (Signature – Auf Anfrage)**
    - *Fokus:* Die Individuallösung: Anspruchsvolle Firmenauftritte mit maßgeschneiderten Spezialfunktionen.
    - *Inhalt & Spezial-Features:* Optional als CMS-Lösung zur Selbstpflege, individuelle Konfiguratoren & Rechner (Handwerk & Industrie), Online-Terminbuchung, Filter-Galerien oder mehrstufige Formulare.
-   - *Leistungen:* Individuelles Gesamtkonzept (bis zu 14 Unterseiten oder nach Projektbedarf), Persönliches Startgespräch und bis zu 5 persönliche Abstimmungsgespräche (telefonisch oder per Video-Call) für den Feinschliff, intensive Betreuung, vollständige Code-/CMS-Übergabe inkl. Einweisung, 100 % Zufriedenheitsgarantie.
+   - *Leistungen:* Individuelles Gesamtkonzept (bis zu 14 Unterseiten oder nach Projektbedarf), alle Leistungen aus Paket Plus (Evolution), Persönliches Startgespräch und bis zu 5 persönliche Abstimmungsgespräche (telefonisch oder per Video-Call) für den Feinschliff, intensive Betreuung, vollständige Code-/CMS-Übergabe inkl. Einweisung, 100 % Zufriedenheitsgarantie.
 
 ## Optionale modulare Zusatzleistungen
 

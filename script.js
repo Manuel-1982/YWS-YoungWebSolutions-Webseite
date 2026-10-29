@@ -168,16 +168,16 @@ document.addEventListener('DOMContentLoaded', () => {
       selectValue: 'Paket Basis (Fresh-Up – 590 €)'
     },
     evolution: {
-      name: 'Paket Pro (Evolution – 990 €)',
-      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + zwei zusätzliche Abstimmungsrunden telefonisch oder per Video-Call).',
+      name: 'Paket Plus (Evolution – 990 €)',
+      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer statischer Inhalte und passender Seitenstruktur (Startgespräch + zwei zusätzliche Abstimmungsrunden telefonisch oder per Video-Call).',
       cardId: 'evolution',
-      selectValue: 'Paket Pro (Evolution – 990 €)'
+      selectValue: 'Paket Plus (Evolution – 990 €)'
     },
     signature: {
-      name: 'Paket Plus (Signature – Auf Anfrage)',
+      name: 'Paket Pro (Signature – Auf Anfrage)',
       text: 'Die Individuallösung: Perfekt für Spezial-Features: Eigenes Redaktionssystem (CMS) zur Text- & Bildpflege, individuelle Rechner/Konfiguratoren, Online-Buchung, Startgespräch und bis zu 5 persönliche Abstimmungsgespräche (telefonisch oder per Video-Call).',
       cardId: 'signature',
-      selectValue: 'Paket Plus (Signature – Auf Anfrage)'
+      selectValue: 'Paket Pro (Signature – Auf Anfrage)'
     },
     basis: {
       name: 'Paket Basis (Fresh-Up – 590 €)',
@@ -186,16 +186,16 @@ document.addEventListener('DOMContentLoaded', () => {
       selectValue: 'Paket Basis (Fresh-Up – 590 €)'
     },
     pro: {
-      name: 'Paket Pro (Evolution – 990 €)',
-      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer Inhalte, neuer Seitenstruktur und flexibler Unterseiten (Startgespräch + zwei zusätzliche Abstimmungsrunden telefonisch oder per Video-Call).',
-      cardId: 'evolution',
-      selectValue: 'Paket Pro (Evolution – 990 €)'
-    },
-    plus: {
-      name: 'Paket Plus (Signature – Auf Anfrage)',
+      name: 'Paket Pro (Signature – Auf Anfrage)',
       text: 'Die Individuallösung: Perfekt für Spezial-Features: Eigenes Redaktionssystem (CMS) zur Text- & Bildpflege, individuelle Rechner/Konfiguratoren, Online-Buchung, Startgespräch und bis zu 5 persönliche Abstimmungsgespräche (telefonisch oder per Video-Call).',
       cardId: 'signature',
-      selectValue: 'Paket Plus (Signature – Auf Anfrage)'
+      selectValue: 'Paket Pro (Signature – Auf Anfrage)'
+    },
+    plus: {
+      name: 'Paket Plus (Evolution – 990 €)',
+      text: 'Der Relaunch (Meine Empfehlung): Neues Design inklusive neuer statischer Inhalte und passender Seitenstruktur (Startgespräch + zwei zusätzliche Abstimmungsrunden telefonisch oder per Video-Call).',
+      cardId: 'evolution',
+      selectValue: 'Paket Plus (Evolution – 990 €)'
     }
   };
 
